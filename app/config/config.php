@@ -4,9 +4,9 @@ return new \Phalcon\Config([
     'database' => [
       'adapter'     => 'Mysql',
       'host'        => 'localhost',
-      'username'    => 'root',
-      'password'    => '',
-      'dbname'      => '@@name@@',
+      'username'    => 'phalcon',
+      'password'    => '1234',
+      'dbname'      => 'url_checker',
       'charset'     => 'utf8',
     ],
     'version' => '1.0',
